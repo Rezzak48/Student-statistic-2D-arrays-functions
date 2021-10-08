@@ -1,0 +1,7 @@
+C:\Users\midou\source\repos\Midterm 1 - A - exa1\exercice\bin\Debug\exercice.exe.config
+C:\Users\midou\source\repos\Midterm 1 - A - exa1\exercice\bin\Debug\exercice.exe
+C:\Users\midou\source\repos\Midterm 1 - A - exa1\exercice\bin\Debug\exercice.pdb
+C:\Users\midou\source\repos\Midterm 1 - A - exa1\exercice\obj\Debug\exercice.csproj.AssemblyReference.cache
+C:\Users\midou\source\repos\Midterm 1 - A - exa1\exercice\obj\Debug\exercice.csproj.CoreCompileInputs.cache
+C:\Users\midou\source\repos\Midterm 1 - A - exa1\exercice\obj\Debug\exercice.exe
+C:\Users\midou\source\repos\Midterm 1 - A - exa1\exercice\obj\Debug\exercice.pdb
