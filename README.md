@@ -19,6 +19,7 @@
 ### The challenge
 
 Users should be able to:
+[](./images/A1.png)
 [](./images/)
 
 
