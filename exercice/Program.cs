@@ -12,7 +12,7 @@ namespace exercice
         {
             int numberOfWeeks = 36;
             int numberOfSubjects = 8;
-            int scale = 0;
+            int scale = 20;
             int[,] data;
 
             data = generateData(numberOfWeeks, numberOfSubjects, scale);
@@ -41,7 +41,17 @@ namespace exercice
             {
                 for (int j = 0; j < data.GetLength(1); j++)
                 {
-                    data[i, j] = rnd.Next(0, 20);
+                    data[i, j] = rnd.Next(0, (16 + 1));
+
+                    if (j < 3)
+                    {
+                        data[i, j] = rnd.Next(15, (scale + 1));
+                    }
+
+                    if ((j + 1) % 4 == 0 && data[i, j] != 0)
+                    {
+                        data[i, rnd.Next(3, data.GetLength(1))] = 0;
+                    }
                 }
             }
             return data;
